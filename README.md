@@ -1,2 +1,7 @@
-# knowledgedoc
-group of knowledge in different aera
+# Gardenia的个人环境知识库
+环境配置经验集合，方便个人配置查询，也欢迎大家一起分享！
+包含内容大致包含：
+**IDE环境配置**
+**服务器配置**
+**学术作图工具**
+**工具链配置**
