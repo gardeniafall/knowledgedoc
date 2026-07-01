@@ -81,3 +81,19 @@ ssh -v -T git@github.com
 ```
 
 进行调试。
+
+## 设置Git代理端口
+
+若`Git`报错
+
+```bash
+fatal: unable to access 'https://github.com/gardeniafall/GPMD.git/': Failed to connect to github.com port 443 after 21113 ms: Could not connect to server
+```
+
+则很可能是代理设置问题，若有科学上网方法，可配置`Git`使用科学上网端口
+
+```bash
+git config --global http.proxy http://127.0.0.1:<你的代理端口>
+```
+
+若使用`Clash for Windows`，代理端口一般为`7890`。若使用`Clash Verge`，代理端口一般为`7897`。
