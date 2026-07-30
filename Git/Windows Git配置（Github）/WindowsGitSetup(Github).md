@@ -82,6 +82,14 @@ ssh -v -T git@github.com
 
 进行调试。
 
+也可以通过
+
+~~~powershell
+git config --global core.sshCommand "C:/Windows/System32/OpenSSH/ssh.exe"
+~~~
+
+直接指定使用的`SSH`程序。
+
 ## 设置Git代理端口
 
 若`Git`报错
